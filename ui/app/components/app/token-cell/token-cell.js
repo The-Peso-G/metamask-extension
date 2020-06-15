@@ -37,6 +37,7 @@ export default function TokenCell ({ address, outdatedBalance, symbol, string, i
       onClick={onClick.bind(null, address)}
       tokenAddress={address}
       tokenImage={image}
+      tokenSymbol={symbol}
       warning={warning}
       primary={`${string || 0} ${symbol}`}
       secondary={formattedFiat}

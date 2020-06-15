@@ -57,6 +57,7 @@ const AssetList = ({ onClickAsset }) => {
         onClick={() => onClickAsset(nativeCurrency)}
         data-testid="wallet-balance"
         primary={primaryCurrencyDisplay}
+        tokenSymbol="ETH"
         secondary={showFiat ? secondaryCurrencyDisplay : undefined}
       />
       <TokenList
